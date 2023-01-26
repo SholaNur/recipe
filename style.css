@@ -1,0 +1,60 @@
+body,
+html {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bgimg {
+  background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  height: 100%;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.heading {
+  font-size: medium;
+  padding: 50px;
+}
+
+.text {
+  height: 1000;
+  width: 1000px;
+  margin-bottom: 300px;
+  padding: 20px;
+  background-color: beige;
+  position: absolute;
+  top: 30%;
+  left: 100px;
+  background-color: rgb(151, 112, 151);
+  color: white;
+}
+
+.contactform {
+  padding: 200px;
+  margin: 50px;
+}
+input {
+  width: 90%;
+  color: grey;
+  margin: 5px 0 5px 20px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid;
+}
+hr {
+  margin-bottom: 30px;
+}
+
+.form-botton {
+  background-color: black;
+  color: white;
+  width: 120px;
+  margin: 30px 0 0 20px;
+  padding: 10px;
+}
